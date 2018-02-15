@@ -1,14 +1,15 @@
 public class DummyClass {
 
   public static void main(String[] args) {
-    String name = "Greetings!";
+    String name = "Bence";
     int age = 25;
     String month = "June";
     String myName = "Java";
     String horoscope = "Gemini";
     String chineseHoroscope = "Horse";
     cheer(myName);
-    greet(name);
+    String title = "Sir";
+    greet(name, title);
     count(age, month);
     future(horoscope, chineseHoroscope);
   }
@@ -17,8 +18,8 @@ public class DummyClass {
     System.out.println("Hello, " + myName + "!");
   }
 
-  public static void greet(String name) {
-    System.out.println(name);
+  public static void greet(String name, String title) {
+    System.out.println(title + " " + name);
   }
 
   public static void count(int age, String month) {
