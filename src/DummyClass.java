@@ -2,7 +2,7 @@ public class DummyClass {
   public static void main(String[] args) {
     String name = "Bence";
     int age = 25;
-    String myName = "Nori";
+    String myName = "Java";
     String horoscope = "Gemini";
     cheer(myName);
     greet(name);
