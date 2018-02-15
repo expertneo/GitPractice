@@ -5,16 +5,17 @@ public class DummyClass {
     int age = 25;
     String month = "June";
     String myName = "Java";
+    String hello = "Hellaou";
     String horoscope = "Gemini";
     String chineseHoroscope = "Horse";
-    cheer(myName);
+    cheer(hello, myName);
     greet(name);
     count(age, month);
     future(horoscope, chineseHoroscope);
   }
 
-  public static void cheer(String myName) {
-    System.out.println("Hello, " + myName + "!");
+  public static void cheer(String hello,String myName) {
+    System.out.println(hello + ", " + myName + "!");
   }
 
   public static void greet(String name) {
