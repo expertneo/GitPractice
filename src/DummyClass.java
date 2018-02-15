@@ -15,7 +15,7 @@ public class DummyClass {
   }
 
   public static void cheer(String myName) {
-    System.out.println("Hello, " + myName + "!");
+    System.out.println("Chear for " + myName + "!");
   }
 
   public static void greet(String name) {
