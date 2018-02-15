@@ -13,7 +13,7 @@ public class DummyClass {
     greet(name, title);
     String age2 = "Ten";
     cheer(hello, myName);
-    count(age, month, day);
+    count(age, month);
     future(horoscope, chineseHoroscope ,age2);
   }
 
@@ -25,8 +25,8 @@ public class DummyClass {
     System.out.println(title + " " + name);
   }
 
-  public static void count(int age, String month, String day) {
-    System.out.println("My birthday is : " + age + " " + month + " " + day);
+  public static void count(int age, String month) {
+    System.out.println("Counting the countless " + age + " " + month);
   }
 
   public static void future(String horoscope, String chineseHoroscope ,String age2) {
