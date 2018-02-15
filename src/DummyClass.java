@@ -3,11 +3,12 @@
   public static void main(String[] args) {
     String name = "Bence";
     int age = 25;
-    myName = Nori;
+    String myName = "Nori";
+    String horoscope="Gemini";
     cheer(myName);
     greet(name);
     count(age);
-    future();
+    future(horoscope);
   }
 
   public void cheer(string myName) {
@@ -22,8 +23,8 @@
     System.out.println("My age is: " + age);
   }
 
-  public static void future() {
-    System.out.println("Gemini");
+  public static void future(String horoscope) {
+    System.out.println(horoscope);
   }
 }
 
