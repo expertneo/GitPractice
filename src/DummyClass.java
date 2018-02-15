@@ -10,7 +10,7 @@ public class DummyClass {
     future();
   }
 public void Cheer {
-    System.out.println("Hello, Nóri!");
+    System.out.println("Hello, Nï¿½ri!");
 }
 
   public static void greet(String name) {
