@@ -34,7 +34,7 @@ public class DummyClass {
 
   public static void future(String horoscope, String chineseHoroscope ,String age2) {
     System.out.println(horoscope);
-    System.out.println(chineseHoroscope);
+    System.out.println("Your future looks like" + chineseHoroscope);
     System.out.println(age2);
   }
 }
