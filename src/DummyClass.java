@@ -16,6 +16,10 @@ public class DummyClass {
     future(horoscope, chineseHoroscope ,age2);
   }
 
+  public static void cheer(String myName) {
+      System.out.println("Chear for " + myName + "!");
+  }
+
   public static void cheer(String hello,String myName) {
     System.out.println(hello + ", " + myName + "!");
   }
