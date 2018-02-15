@@ -1,24 +1,29 @@
 public class DummyClass {
-
-  public void count (){
-    System.out.println("My age is 25");
-  }
-
   public static void main(String[] args) {
     String name = "Bence";
+    int age = 25;
+    String myName = "Nori";
+    String horoscope = "Gemini";
+    cheer(myName);
     greet(name);
-    future();
+    count(age);
+    future(horoscope);
   }
-public void Cheer {
-    System.out.println("Hello, N�ri!");
-}
+
+  public static void cheer(String myName) {
+    System.out.println("Hello, " + myName + "!");
+  }
 
   public static void greet(String name) {
     System.out.println(name);
   }
 
-  public static void future() {
-    System.out.println("Gemini");
+  public static void count(int age) {
+    System.out.println("My age is: " + age);
+  }
+
+  public static void future(String horoscope) {
+    System.out.println(horoscope);
   }
 }
 
