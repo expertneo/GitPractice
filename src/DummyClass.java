@@ -1,15 +1,17 @@
-public class DummyClass {
+﻿public class DummyClass {
 
   public static void main(String[] args) {
     String name = "Bence";
     int age = 25;
+    myName = Nori;
+    cheer(myName);
     greet(name);
     count(age);
     future();
   }
 
-  public void Cheer {
-    System.out.println("Hello, N�ri!");
+  public void cheer(string myName) {
+    System.out.println("Hello, !" + myName);
   }
 
   public static void greet(String name) {
