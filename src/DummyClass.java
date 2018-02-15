@@ -1,7 +1,7 @@
 public class DummyClass {
 
   public static void main(String[] args) {
-    String name = "Greetings!";
+    String name = "Adam";
     int age = 1992;
     String month = "June";
     String day = "21";
@@ -19,7 +19,7 @@ public class DummyClass {
   }
 
   public static void greet(String name) {
-    System.out.println(name);
+    System.out.println("Greetings for " + name + "!");
   }
 
   public static void count(int age, String month, String day) {
