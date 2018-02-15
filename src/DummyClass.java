@@ -6,16 +6,18 @@ public class DummyClass {
     String month = "June";
     String day = "21";
     String myName = "Java";
+    String hello = "Hellaou";
     String horoscope = "Gemini";
     String chineseHoroscope = "Horse";
-    cheer(myName);
+    String age2 = "Ten";
+    cheer(hello, myName);
     greet(name);
     count(age, month, day);
-    future(horoscope, chineseHoroscope);
+    future(horoscope, chineseHoroscope ,age2);
   }
 
-  public static void cheer(String myName) {
-    System.out.println("Hello, " + myName + "!");
+  public static void cheer(String hello,String myName) {
+    System.out.println(hello + ", " + myName + "!");
   }
 
   public static void greet(String name) {
@@ -26,9 +28,10 @@ public class DummyClass {
     System.out.println("My birthday is : " + age + " " + month + " " + day);
   }
 
-  public static void future(String horoscope, String chineseHoroscope) {
+  public static void future(String horoscope, String chineseHoroscope ,String age2) {
     System.out.println(horoscope);
     System.out.println(chineseHoroscope);
+    System.out.println(age2);
   }
 }
 
