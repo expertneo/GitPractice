@@ -23,7 +23,7 @@ public class DummyClass {
   }
 
   public static void count(int age, String month) {
-    System.out.println("My age is: " + age + " " + month);
+    System.out.println("Counting the countless " + age + " " + month);
   }
 
   public static void future(String horoscope, String chineseHoroscope) {
