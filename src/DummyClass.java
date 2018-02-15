@@ -7,10 +7,11 @@ public class DummyClass {
     String myName = "Java";
     String horoscope = "Gemini";
     String chineseHoroscope = "Horse";
+    String age2 = "Ten";
     cheer(myName);
     greet(name);
     count(age, month);
-    future(horoscope, chineseHoroscope);
+    future(horoscope, chineseHoroscope ,age2);
   }
 
   public static void cheer(String myName) {
@@ -25,9 +26,10 @@ public class DummyClass {
     System.out.println("My age is: " + age + " " + month);
   }
 
-  public static void future(String horoscope, String chineseHoroscope) {
+  public static void future(String horoscope, String chineseHoroscope ,String age2) {
     System.out.println(horoscope);
     System.out.println(chineseHoroscope);
+    System.out.println(age2);
   }
 }
 
