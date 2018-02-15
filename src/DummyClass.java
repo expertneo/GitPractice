@@ -1,7 +1,7 @@
 public class DummyClass {
 
-  public void count (int age){
-    System.out.println("Your age is: " + age);
+  public void count (){
+    System.out.println("My age is 25");
   }
 
   public void future(){
